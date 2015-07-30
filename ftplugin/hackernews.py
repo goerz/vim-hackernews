@@ -120,6 +120,7 @@ def main():
             bwrite(line)
         bwrite("")
     vim.command("setlocal undolevels=100")
+    vim.command("set syntax=hackernews")
 
 
 def link(external=False):
